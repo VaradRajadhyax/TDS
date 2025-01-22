@@ -1,8 +1,0 @@
-name: GitHub Actions Demo
-  jobs: 
-    Explore-GitHub-Actions:
-      runs-on: ubuntu-latest
-      steps:
-        - name: 22f3000445@ds.study.iitm.ac.in
-       
-     
