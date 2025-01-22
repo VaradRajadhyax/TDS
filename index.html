@@ -32,12 +32,18 @@
     </header>
     <section>
         <p>Hi! I am a Data Science and Programming student showcasing my projects and skills here.</p>
-        <p>Contact me at: <a href="mailto:<!--email_off-->22f3000445@ds.study.iitm.ac.in<!--/email_off-->">
-            <!--email_off-->22f3000445@ds.study.iitm.ac.in<!--/email_off-->
-        </a></p>
+        <p>Contact me at: <span id="email"></span></p>
     </section>
     <footer>
         <p>© 2025 My Portfolio</p>
     </footer>
+
+    <script>
+        // Construct the email dynamically to avoid obfuscation
+        const user = "22f3000445";
+        const domain = "ds.study.iitm.ac.in";
+        const email = `${user}@${domain}`;
+        document.getElementById("email").innerHTML = `<a href="mailto:${email}">${email}</a>`;
+    </script>
 </body>
 </html>
