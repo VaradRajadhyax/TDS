@@ -1,0 +1,20 @@
+name: Sample GitHub Action
+
+on:
+  push:
+    branches:
+      - '*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Run a simple script
+        run: echo "Hello, this is a GitHub Action!"
+
+      - name: Step by 22f3000445@ds.study.iitm.ac.in
+        run: echo "This step is named after my email address!"
